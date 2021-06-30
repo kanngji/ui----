@@ -1,0 +1,34 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*Reset CSS*/
+a { text-decoration: none;}
+h1,h2,h3,h4,h5,h6 { margin: 0;}
+button { cursor: pointer; outline: none;}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media {
+    display: flex;
+    background-color: #eee;
+    width: 600px;
+    padding: 10px;
+    align-items: center;
+}
+.media img{
+    width: 100px;
+    flex:2;
+    margin-right: 15px;
+}
+.media-body{
+    flex:5;
+}
+.media-body h3{}
+.media-body p{}

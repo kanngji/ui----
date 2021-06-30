@@ -1,0 +1,73 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+    font-size: 15px;
+    color:#222;
+    margin: 0;
+    font-weight: 300;
+}
+
+/*Reset CSS*/
+a { 
+    text-decoration: none;
+    color:#222;
+}
+h1,h2,h3,h4,h5,h6 { 
+    margin: 0;
+    font-weight: normal;
+}
+button { 
+    cursor: pointer; 
+    outline: none;
+}
+
+input,textarea,select {
+    outline:none;
+}
+button,input,textarea,select {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+}
+.post:nth-child(odd){
+    flex-direction: column;
+
+}
+.post:nth-child(even){
+    flex-direction: column-reverse;
+
+}
+.image {
+    width: 250px;
+}
+.image img {
+    width: 100%;
+    border: 1px solid #eee;
+    display: block;
+}
+.desc{
+    background-color: rgba(0, 0, 0, 0.801);
+    color:white;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc h2{}
+.desc p{}

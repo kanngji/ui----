@@ -1,0 +1,76 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*Reset CSS*/
+a { 
+    text-decoration: none;
+    color:#222;
+}
+h1,h2,h3,h4,h5,h6 { 
+    margin: 0;
+    font-weight: normal;
+}
+button { 
+    cursor: pointer; 
+    outline: none;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #eee;
+    font-size: 15px;
+    color:#222;
+    margin: 0;
+}
+
+/* Header */
+header{
+    background-color: #a29bfe;
+    display: flex;
+    justify-content: center;
+    
+
+}
+nav{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{}
+.logo img{
+    width: 20%;
+    border-radius: 40%;
+}
+.gnb{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+}
+.gnb li{}
+.gnb li a{
+    color:#fff;
+    margin: 10px;
+    font-weight: 200;
+}
+.sns{
+    display: flex;
+    
+    
+}
+.sns a{
+    color:#fff;
+    margin: 5px;
+}
+
+.gnb li a:hover,
+.sns a:hover {
+    color:#000;
+}
+
